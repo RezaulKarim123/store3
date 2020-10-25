@@ -1,0 +1,115 @@
+/*Start Header Area*/
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background: blue;
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+/*End Header Area*/
+
+/*Start Log-in Area*/
+.login{
+    width: 100%;
+    height: 450px;  
+}
+.login-left{
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: lime;
+}
+.login-left ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+.login-left ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 1px solid blue;
+    padding: 2px 20px;
+    background: linear-gradient(lime,blue);
+}
+.login-left ul li a:hover{
+    background: linear-gradient(blue, lime);
+}
+.login-left .active{
+    color: orangered;
+}
+.login-right{
+    width: 80%;
+    height: 450px;
+    float: left;
+    background: green;
+    position: relative;
+}
+.cir{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top:70px ;
+    background: red;
+    border-radius: 50%;
+}
+.login-right .text{
+    padding: 20px;
+    margin-top: -225px;
+    text-align: center;
+}
+.login-right .text input[type="text"]{
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.login-right .btn{
+    width: 125px;
+    height: 40px;
+    margin-left: 490px ;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.login-right .btn:hover{
+    background: yellow;
+    color: green;
+}
+/*End Log-in Area*/
+
+/* Start Footer Area */
+.footer{
+    width: 100%;
+    height: 40%;
+    padding: 0;
+    text-align: center;
+    background-color: palegreen;
+}
+.footer::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.footer .top{
+    padding: 0 50px;
+    font-size: 29px;
+}
+.footer .my{
+    margin: 35px 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: end;
+    color: red;
+/* End Footer Area */
